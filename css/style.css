@@ -1,0 +1,68 @@
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Palanquin Dark', sans-serif;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+
+button.radius, .button.radius {
+    border-radius: 3px; 
+    }
+  button.round, .button.round {
+    border-radius: 1000px; 
+    }
+    
+.top-bar-title {
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+
+#responsive-menu {
+	position: absolute;
+	right: 0;
+	z-index: 1;
+}
+
+.hz-title {
+	font-weight: 700;
+}
+
+.hz-burger {
+	position: absolute;
+	color: white !important;
+}
+
+.hz-small-menu {
+	margin-top: 48px;
+	height: 38px;
+	width: 100%;
+}
+
+.top-bar, .top-bar ul{
+	background-color: rgb(35, 45, 50);
+	
+}
+
+.hz-hero-img {
+	background-image: url(../assets/homepagebgn.gif);
+	height: 400px;
+	width: 100%;
+}
+
+.hz-main-text {
+	margin-top: 50px;
+	color: white;
+	text-shadow: 0px 0px 18px black;
+}
+
+.hz-main-text h1 {
+	font-size: 8em;
+}
+
+.hz-section-info {
+	margin-top: 40px;
+}
