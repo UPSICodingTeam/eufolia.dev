@@ -96,7 +96,7 @@ button.radius, .button.radius {
 	background-color: white;
 	height: inherit;
 	width: 100%;
-	margin: 10px 0px;
+	margin: 10px 0px 10px !important;
 	border-radius: 3px;
 	box-shadow: 0px 0px 3px #979797;
 	padding-bottom: 20px;
@@ -173,4 +173,9 @@ button.radius, .button.radius {
 
 .hz-newsfeed-name {
 	padding-top: 20px;
+}
+
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
+	background-color: #d4f2ff;
+	border-bottom: 3px solid #00a7ff;
 }
