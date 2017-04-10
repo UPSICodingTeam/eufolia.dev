@@ -26,6 +26,11 @@
   <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark|Roboto" rel="stylesheet">
   <!-- Google Fonts CDN END -->
   
+  <!-- Quilljs CDN
+  =================================================== -->
+  <link href="https://cdn.quilljs.com/1.2.3/quill.snow.css" rel="stylesheet">
+  <!-- Quilljs CDN END -->
+  
   
   
   
@@ -94,7 +99,9 @@
 							Update status here
 						</div>
 						<div class="tabs-panel" id="stories">
-							Update stories here
+							<div class="hz-greyfont" id="editor">
+							  <p>Got a story to share?</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -190,8 +197,14 @@
 	<script src="js/foundation.js"></script>
 	<script src="js/slick.js"></script>
 	<script src="js/what-input.js"></script>
+	<script src="https://cdn.quilljs.com/1.2.3/quill.js"></script>
   	<script>
 	  	$(document).foundation();
+	  	
+	  	var quill = new Quill('#editor', {
+		    theme: 'snow'
+		    //theme: 'bubble'
+		  });
 	</script>
 </body>
 </html>
