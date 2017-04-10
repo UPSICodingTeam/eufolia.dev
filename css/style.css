@@ -146,6 +146,31 @@ button.radius, .button.radius {
 	color: grey;
 }
 
+.hz-greyfont-smaller {
+	position: absolute;
+	margin-bottom: 50px;
+	font-size: 0.6em;
+	color: grey;
+}
+
 .hz-newsfeed-top {
 	margin-top: 10px;
+}
+
+.hz-newsfeed {
+	background-color: white;
+	height: inherit;
+	width: 100%;
+	margin: 10px 0px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 3px #979797;
+}
+
+.hz-newsfeed-img {
+	height: 50px;
+	width: 10%;
+}
+
+.hz-newsfeed-name {
+	padding-top: 20px;
 }
