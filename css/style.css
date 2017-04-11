@@ -31,6 +31,10 @@ button.radius, .button.radius {
 	font-weight: 700;
 }
 
+.hz-title > a {
+	color: white;
+}
+
 .hz-burger {
 	position: absolute;
 	color: white !important;
