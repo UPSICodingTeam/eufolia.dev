@@ -86,9 +86,6 @@
 				</div>
 			</div>
 			<div class="medium-6 small-12 columns" id="hznewsfeed">
-				<div class="row hz-newsfeed-top">
-					<h5>News Feed</h5>
-				</div>
 				<div class="hz-newsfeed small-12 columns">
 					<div class="row">
 						<ul class="tabs" data-tabs id="status-stories">
@@ -98,14 +95,20 @@
 							<li class="tabs-title"><a href="#lp"><i class="fa fa-columns" aria-hidden="true"></i> New Lesson Plan</a></li>
 						</ul>
 						<div class="tabs-content" data-tabs-content="status-stories">
-							<div class="tabs-panel is-active clearfix" id="status">
-								<div class="small-12 columns">
-									Update status here
+							<div class="tabs-panel is-active" id="status">
+								<div class="hz-greyfont" id="editor_status">
 								</div>
-								<a href="#" class="button right radius">Post</a>
+								<hr/>
+								<div class="small-12 columns text-right">
+									<a href="#" class="button tiny radius">POST</a>
+								</div>
 							</div>
 							<div class="tabs-panel" id="stories">
-								<div class="hz-greyfont" id="editor">
+								<div class="hz-greyfont" id="editor_stories">
+								</div>
+								<hr/>
+								<div class="small-12 columns text-right">
+									<a href="#" class="button tiny radius">POST</a>
 								</div>
 							</div>
 							<div class="tabs-panel" id="photos">
@@ -145,7 +148,7 @@
 						<hr/>
 					</div>
 				</div>
-			</div>
+			</div id="hznewsfeed-btm">
 			<div class="medium-3 small-12 columns">
 				<div class="hz-right-panel text-center">
 					<div class="row">
@@ -239,8 +242,15 @@
   	<script>
 	  	$(document).foundation();
 	  	
-	  	var quill = new Quill('#editor', {
-		    theme: 'snow'
+	  	var quill = new Quill('#editor_status', {
+		    //theme: 'snow',
+		    placeholder: 'What do you have in mind?'
+		    //theme: 'bubble'
+		  });
+		
+		var quill = new Quill('#editor_stories', {
+		    //theme: 'snow',
+		    placeholder: 'Have a story to share?'
 		    //theme: 'bubble'
 		  });
 	</script>

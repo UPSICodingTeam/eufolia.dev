@@ -179,3 +179,36 @@ button.radius, .button.radius {
 	background-color: #d4f2ff;
 	border-bottom: 3px solid #00a7ff;
 }
+
+.tabs-title > a {
+	padding: 10px 20px;
+}
+
+#stories > hr {
+	margin: 10px auto;
+}
+
+.tabs-content {
+	border: none;
+}
+.hz-profilebg {
+	background-image: url(../assets/homepagebgn.gif);
+	height: 150px;
+}
+
+.hz-profileimg {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 5px solid white;
+	position: relative;
+	top: -50px;
+}
+
+.hz-profilename {
+	color: white;
+	font-weight: 700;
+	font-size: 1.5em;
+	position: relative;
+	top: 30px;
+}
