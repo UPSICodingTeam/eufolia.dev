@@ -15,25 +15,25 @@
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
-  
+
   <!-- Fontawesome CDN
   =================================================== -->
   <script src="https://use.fontawesome.com/b7b7688f68.js"></script>
   <!-- Fontawesome CDN END -->
-  
+
   <!-- Google Fonts CDN
   =================================================== -->
   <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark|Roboto" rel="stylesheet">
   <!-- Google Fonts CDN END -->
-  
+
   <!-- Quilljs CDN
   =================================================== -->
   <link href="https://cdn.quilljs.com/1.2.3/quill.snow.css" rel="stylesheet">
   <!-- Quilljs CDN END -->
-  
-  
-  
-  
+
+
+
+
 </head>
 
 <body>
@@ -46,7 +46,7 @@
 		    	<span class="hz-title"><a href="/home.html"><i class="fa fa-folder-open-o fa-lg" aria-hidden="true"></i> Eufolia</a></span>
 		  	</div>
 		  	<div id="responsive-menu">
-			  	
+
 		    	<div class="top-bar-right">
 			    	<ul class="show-for-medium menu">
 				    	<li class="button radius small">Create an account</li>
@@ -93,7 +93,6 @@
 						<ul class="tabs" data-tabs id="status-stories">
 							<li class="tabs-title is-active"><a href="#status"><i class="fa fa-pencil" aria-hidden="true"></i> New Status</a></li>
 							<li class="tabs-title"><a href="#stories"><i class="fa fa-file-text-o" aria-hidden="true"></i> New Stories</a></li>
-							<li class="tabs-title"><a href="#photos"><i class="fa fa-camera-retro" aria-hidden="true"></i> New Photos</a></li>
 							<li class="tabs-title"><a href="#lp"><i class="fa fa-columns" aria-hidden="true"></i> New Lesson Plan</a></li>
 						</ul>
 						<div class="tabs-content" data-tabs-content="status-stories">
@@ -102,6 +101,7 @@
 								</div>
 								<hr/>
 								<div class="small-12 columns text-right">
+                  <a href="#" class="button tiny radius"><i class="fa fa-camera-retro fa-lg" aria-hidden="true"></i> Upload photos</a>
 									<a href="#" class="button tiny radius">POST</a>
 								</div>
 							</div>
@@ -113,11 +113,12 @@
 									<a href="#" class="button tiny radius">POST</a>
 								</div>
 							</div>
-							<div class="tabs-panel" id="photos">
-								Upload picture here
-							</div>
 							<div class="tabs-panel" id="lp">
 								Upload lesson plans here
+                <hr/>
+								<div class="small-12 columns text-right">
+									<a href="#" class="button tiny radius">POST</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -158,7 +159,7 @@
 							<h5>Featured Stories</h5>
 						</div>
 					</div>
-				
+
 					<a href="#">
 						<div class="row hz-small-stories">
 							<div class="small-3 columns">
@@ -195,9 +196,9 @@
 			</div>
 		</div>
 	</section>
-	
-	
-	
+
+
+
 	<section class="hz-footer">
 		<div class="row hz-white">
 			<div class="medium-3 small-12 columns">
@@ -229,13 +230,13 @@
 			</div>
 		</div>
 	</section>
-	
 
 
 
-	
-	
-	
+
+
+
+
 	<script src="js/jquery.js"></script>
 	<script src="js/foundation.js"></script>
 	<script src="js/slick.js"></script>
@@ -243,13 +244,13 @@
 	<script src="https://cdn.quilljs.com/1.2.3/quill.js"></script>
   	<script>
 	  	$(document).foundation();
-	  	
+
 	  	var quill = new Quill('#editor_status', {
 		    //theme: 'snow',
 		    placeholder: 'What do you have in mind?'
 		    //theme: 'bubble'
 		  });
-		
+
 		var quill = new Quill('#editor_stories', {
 		    //theme: 'snow',
 		    placeholder: 'Have a story to share?'
