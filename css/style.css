@@ -236,3 +236,16 @@ button.radius, .button.radius {
 	font-size: 3em;
 	font-weight: bold;
 }
+
+
+/*  custom new rules  */
+
+.hz-comments {
+	padding: 0px 10px 0px 10px;
+}
+
+.hz-comment-box textarea {
+	outline: none;
+	resize: none;
+	
+}
