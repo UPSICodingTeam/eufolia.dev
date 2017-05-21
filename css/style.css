@@ -240,6 +240,10 @@ button.radius, .button.radius {
 
 /*  custom new rules  */
 
+hr {
+	margin: 7px auto;
+}
+
 .hz-comments {
 	padding: 0px 10px 0px 10px;
 }
@@ -247,5 +251,10 @@ button.radius, .button.radius {
 .hz-comment-box textarea {
 	outline: none;
 	resize: none;
+	font-size: 0.75em;
+	margin-left: 5px;
+	min-width: 100%;
+	width: inherit;
+	
 	
 }
